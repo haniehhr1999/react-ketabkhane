@@ -1,0 +1,30 @@
+@font-face {
+    font-family: vazir;
+    src: url(assets/Vazir.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+}
+a{
+    display: inline-block;
+    margin: 5px 0;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 500px;
+    transition: 0.5s;
+    background-color: rgb(62, 62, 100);
+}
+a:hover{
+    background-color: rgb(124, 124, 184);
+}
+input{
+    margin: 5px 0; 
+    border-radius: 500px;
+    padding: 7px 15px;
+    border: none;
+    background-color: rgb(148, 148, 198);
+}
